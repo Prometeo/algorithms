@@ -1,2 +1,2 @@
 # algorithms
-Source code for lagorithms in several languages
+Source code for algorithms in several languages
