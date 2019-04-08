@@ -1,6 +1,6 @@
 import sys
 
-''' Basic function to get the binary from a decimal number '''
+""" Basic function to get the binary from a decimal number """
 
 binary_repr = []
 
@@ -16,6 +16,7 @@ def convert_to_binary():
     return binary_repr
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     result = convert_to_binary()
-    print(str(result))
+    result_str = "".join(str(i) for i in result)
+    print(result_str)
