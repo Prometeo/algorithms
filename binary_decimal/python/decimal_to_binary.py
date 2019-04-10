@@ -8,8 +8,8 @@ binary_repr = []
 def convert_to_binary():
     decimal_number = int(sys.argv[1])
     while decimal_number > 0:
-        reminder = decimal_number % 2
-        binary_repr.append(reminder)
+        remainder = decimal_number % 2
+        binary_repr.append(remainder)
         decimal_number = decimal_number // 2
 
     binary_repr.reverse()
