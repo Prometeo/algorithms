@@ -7,13 +7,13 @@ list_binary = [int(x) for x in str(binary)]
 
 
 def convert_to_decimal():
-    variable = 0
+    decimal_variable = 0
     for i in list_binary:
-        variable = 2 * variable + i
-
-    return variable
+       decimal_variable = 2 * decimal_variable + i
+       
+    return decimal_variable
 
 
 if __name__ == "__main__":
-    r = convert_to_decimal()
-    print(str(r))
+    result = convert_to_decimal()
+    print(str(result))
