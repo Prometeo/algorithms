@@ -15,5 +15,5 @@ fn main() {
         decimal_var = 2 * decimal_var + int_char;
     }
 
-    println!("{}",decimal_var);
+    println!("{}", decimal_var);
 }
