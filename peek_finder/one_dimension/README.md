@@ -28,7 +28,7 @@ Worst case complexity θ(n) -> `if you have to go from 1 to n (all elements)`.
 - Else if a[n/2] < a[n/2 + 1] then only search on the right half.
 - Else n/2 position is a `peak`.
 
-T(n)  =  T(n/2)  +  θ(1)
+T(n)&nbsp; &nbsp;=&nbsp; &nbsp;T(n/2)&nbsp; &nbsp;+&nbsp; &nbsp;θ(1)
 
-T(n) -> Work algorithm does on input size n.
+T(n) -> Work algorithm does on input size n.\
 θ(1) -> The comparision on the middle.
