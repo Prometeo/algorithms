@@ -30,5 +30,5 @@ Worst case complexity θ(n) -> `if you have to go from 1 to n (all elements)`.
 
 T(n)  =  T(n/2)  +  θ(1)
 
-T(n) -> Work algorithm does on input size `n`.
+T(n) -> Work algorithm does on input size n.
 θ(1) -> The comparision on the middle.
