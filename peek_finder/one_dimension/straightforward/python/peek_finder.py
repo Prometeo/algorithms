@@ -7,17 +7,17 @@ def get_a_peek():
     steps = 0
     for i in numbers_array:
         element_index = numbers_array.index(i)
-        previous_element = len(numbers_array) - 1
-        next_element = len(numbers_array) + 1
+        final_element = len(numbers_array) - 1
         steps += 1
         if element_index == 0:
             if i > numbers_array[element_index + 1]:
                 return (i, steps)
-        elif element_index == previous_element:
+        elif element_index == final_element:
             if i > numbers_array[element_index - 1]:
                 return (i, steps)
         else:
-            if i > previous_element and i > next_element:
+            if (i > numbers_array[element_index - 1] and i
+                    > numbers_array[element_index + 1]):
                 return (i, steps)
 
 
