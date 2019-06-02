@@ -4,9 +4,7 @@ We will find a peek in a two dimensions array.
 |   | C |   |   |
 | - | - | - | - |
 | B | A | D |   |
-| - | - | - | - |
 |   | E |   |   |
-| - | - | - | - |
 |   |   |   |   |
 
 
