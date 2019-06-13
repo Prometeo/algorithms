@@ -24,5 +24,7 @@ We will find a peek in a two dimensions array.
 
 <pre>
 T(n,m) = T(n,m/) + Θ(n)  <- max
+
 T(n,m) = Θ(n) .... + Θ(n) = Θ(nlog<sub>2</sub>m) 
+|-------------- log<sub>2</sub>m --------------|
 </pre>
