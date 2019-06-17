@@ -11,7 +11,11 @@ We will find a peek in a two dimensions array.
 
 - A is a 2D peek if and only if A ≥ B, A ≥ D, A ≥ E
 
-
+ y
+ |
+ |
+ |
+-|---------x
 
 # Steps 
 - Pick middle column => j = x/2
