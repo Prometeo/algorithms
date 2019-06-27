@@ -21,7 +21,8 @@ def peak2d(array):
         and array[index_max][middle_column] < array[index_max][middle_column - 1]
     ):
         return peak2d(
-            [middle_column_array[:middle_column] for middle_column_array in array]
+            [middle_column_array[:middle_column]
+                for middle_column_array in array]
         )
 
     elif (
@@ -29,7 +30,8 @@ def peak2d(array):
         and array[index_max][middle_column] < array[index_max][middle_column + 1]
     ):
         return peak2d(
-            [middle_column_array[middle_column:] for middle_column_array in array]
+            [middle_column_array[middle_column:]
+                for middle_column_array in array]
         )
 
     else:
